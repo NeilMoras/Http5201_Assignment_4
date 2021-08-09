@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+max-width: 1200px;
+  margin: 0 auto;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.hidden {
+  position: absolute;
+  left: -100000px;
+  width: 1px;
+  height: 1px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// HEADER Navigation
+#header {
+  background: #1d1d1d;
+  color: #fff;
+}
+
+.nav-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-block;
+  padding: 1em;
+  font-size: 24px;
+  padding: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu ul:last-child {
+  margin-right: 72px;
+}
+
+
+#web-logo {
+  width: 100px;
+}
+
+.logo {
+  flex: 1 1 50%;
+
+}
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+
+
+// Footer
+#footer {
+  clear: both;
+  border-top: 1px solid #fff;
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+.copyright {
+  order: -1;
+  flex: 5 50%;
+  padding: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
