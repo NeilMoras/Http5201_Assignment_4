@@ -10,7 +10,7 @@ document.querySelector('#header').innerHTML = `
 <div class="text-wrapper">
 <div class="nav-flex">
 <div class="logo">
-  <!-- <a href="index.html"><img id="web-logo" src="images/fake-logo.png" alt="Logo of the website" /></a> -->
+  <a href="index.html"><img id="web-logo" src="images/fake-logo.png" alt="Logo of the website" /></a>
 </div>
 <nav id="menu">
   <h2 class="hidden">Header Navigation Menu</h2>
