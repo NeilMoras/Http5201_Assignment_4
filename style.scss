@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -6,20 +5,19 @@
 
 html {
   box-sizing: border-box;
-
 }
 
-*, *:before, *:after {
+*,
+*:after,
+*:before {
   box-sizing: inherit;
 }
-
-body {
-max-width: 1200px;
-  margin: 0 auto;
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-}
-
+// body {
+// max-width: 1200px;
+//   margin: 0 auto;
+//   color: #000;
+//   font-family: 'Montserrat', sans-serif;
+// }
 
 .hidden {
   position: absolute;
@@ -28,10 +26,10 @@ max-width: 1200px;
   height: 1px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Montserrat', sans-serif;
 }
-
 // HEADER Navigation
 #header {
   background: #1d1d1d;
@@ -67,16 +65,13 @@ h1, h2 {
   margin-right: 72px;
 }
 
-
 #web-logo {
   width: 100px;
 }
 
 .logo {
   flex: 1 1 50%;
-
 }
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -86,9 +81,6 @@ h1, h2 {
   color: #2c3e50;
   margin-top: 60px;
 }
-
-
-
 // Footer
 #footer {
   clear: both;
@@ -102,4 +94,18 @@ h1, h2 {
   flex: 5 50%;
   padding: 3em;
   font-family: 'Open Sans', sans-serif;
+}
+
+.banner_image{
+  width: 100%;
+}
+
+.wrapper{
+max-width: 900px;
+margin: 0 auto;
+padding-bottom: 5em;
+}
+
+.example-img{
+  width:65%;
 }

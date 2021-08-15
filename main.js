@@ -1,12 +1,12 @@
-import './style.scss'
+import "./style.scss";
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+// document.querySelector('#app').innerHTML = `
+//   <h1>Hello Vite!</h1>
+//   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+// `
 
 
-document.querySelector('#header').innerHTML = `
+document.querySelectorAll(".header").innerHTML = `
 <div class="text-wrapper">
 <div class="nav-flex">
 <div class="logo">
@@ -23,4 +23,4 @@ document.querySelector('#header').innerHTML = `
 </div>
 
 </div>
-`
+`;

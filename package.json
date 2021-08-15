@@ -4,10 +4,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "scripts": {
+      "test": "mocha"
+    }
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
     "sass": "^1.37.5",
     "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "mocha": "^9.0.3"
   }
 }
