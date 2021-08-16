@@ -25,6 +25,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 // HEADER NAVIGATION
+
 #header {
   background: #1d1d1d;
   color: #fff;
@@ -75,16 +76,17 @@ h2 {
   color: #2c3e50;
   margin-top: 60px;
 }
-
 // INDEX PAGE
-#index{
+#index {
   padding: 5em;
 }
-#index p{
+
+#index p {
   margin: 1.5em;
   font-size: 1.2em;
 }
-#index a{
+
+#index a {
   margin: 1.5em;
   text-decoration: none;
   color: #fff;
@@ -93,9 +95,6 @@ h2 {
   border-radius: 8px;
   font-weight: bolder;
 }
-
-
-
 //FOOTER
 #footer {
   clear: both;
@@ -111,16 +110,16 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.banner_image{
+.banner_image {
   width: 100%;
 }
 
-.wrapper{
-max-width: 900px;
-margin: 0 auto;
-padding-bottom: 5em;
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 5em;
 }
 
-.example-img{
-  width:65%;
+.example-img {
+  width: 65%;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="referrer" content="origin">
@@ -8,26 +9,39 @@
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="stylesheet" href="https://classless.de/classless.css">
-<!--      <link rel="stylesheet" href="../style.scss">-->
-  <title>BAd Example Page</title>
-</head>
+    <link rel="stylesheet" href="https://classless.de/classless.css">
+    <!--      <link rel="stylesheet" href="../style.scss">-->
+    <title>Bad Example Page</title>
+  </head>
 
-<body>
-  <header class="header">
-    <div class="banner">
-      <img class="banner_image" src="/images/header-image.png" alt="image banner of computer"/>
-  </div>
-  </header>
-<div class="back_link">
-  <a  href="../index.html">Back to Main</a>
-</div>
-<section>
-  <div id="security_section">
-       <h1 class="security_section_title">Bad Example Page</h1>
+  <body>
+    <header class="header">
+      <div class="banner">
+        <img class="banner_image" src="/images/header-image.png" alt="image banner of computer" />
+      </div>
+    </header>
+    <div class="back_link">
+      <a href="../index.html">Back to Main</a>
+    </div>
+    <section>
+      <div id="security_section">
+        <h1 class="badexample_section_title">Bad Example Page</h1>
+        <p>This page Explains a bad example how it will affect the security of the page.</p>
+      </div>
+      <h2>Form</h2>
+      <p>A form is one of the best examples where things can go wrong as thats the only medium where usually a website user inputs a certain pience of information which can be personal or confidential.</p>
+      <form class="" action="index.html" method="get">
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" value="enter your username" required>
+        <label for="password">Name</label>
+        <input type="password" name="password" required>
+        <input type="submit" id="password" name="loginBtn" value="login">
+      </form>
+      <p>The above example is one of the simple and one out of many examples where things can go wrong in terms of login. When the user inputs the username and password, if you notice the url it will display the username and the password to the url.
+        This is a serious issue and it is due to the use of GET instead of POST method on the Form. These information can be stored on the browser history which can create a security issue. </p>
+      <p>Another issue is with the validation. The current setup contains only basic front end validation backend validation for the the input data. This will result in a malicious user to take advantage and inject an sql injection attack attack by
+        just deleting the front end validation using the dev tools. Hence GET request should ne avoided in case of forms where there is password involved.</p>
+    </section>
+  </body>
 
-  </div>
-
-</section>
-</body>
 </html>

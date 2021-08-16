@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="referrer" content="origin">
-  <meta name="description" content="Main Index page">
-  <meta name="author" content="Neil Moras">
-  <meta http-equiv="x-ua-compatible" content="IE=edge">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.scss">
-  <title>Vite App</title>
-</head>
-<body>
-  <header id="header">
-    <div class="text-wrapper">
-    <div class="nav-flex">
-    <div class="logo">
-      <a href="index.html"><img id="web-logo" src="images/fake-logo.png" alt="Logo of the website" /></a>
-    </div>
-<!--      NAVIGATION-->
-    <nav id="menu">
-      <h2 class="hidden">Header Navigation Menu</h2>
-      <ul>
-        <li><a href="security/index.html" target="_blank">Security</a></li>
-        <li><a href="quality/index.html" target="_blank">Quality</a></li>
-        <li><a href="badexample/index.html" target="_blank">Bad Example</a></li>
-      </ul>
-    </nav>
-    </div>
-    </div>
-  </header>
-  <main id="index">
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </main>
-  <footer id="footer">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="origin">
+    <meta name="description" content="Main Index page">
+    <meta name="author" content="Neil Moras">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.scss">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header id="header">
       <div class="text-wrapper">
-    <div class="nav-flex">
-      <div class="copyright">
-        &copy;Copyright, Neil Moras@2021
+        <div class="nav-flex">
+          <div class="logo">
+            <a href="index.html"><img id="web-logo" src="images/fake-logo.png" alt="Logo of the website" /></a>
+          </div>
+          <!--      NAVIGATION-->
+          <nav id="menu">
+            <h2 class="hidden">Header Navigation Menu</h2>
+            <ul>
+              <li><a href="security/index.html" target="_blank">Security</a></li>
+              <li><a href="quality/index.html" target="_blank">Quality</a></li>
+              <li><a href="badexample/index.html" target="_blank">Bad Example</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
-    </div>
-  </footer>
-</body>
+    </header>
+    <!--      MAIN SECTION-->
+    <main id="index">
+      <div id="app"></div>
+      <script type="module" src="/main.js"></script>
+    </main>
+    <!--      FOOTER-->
+    <footer id="footer">
+      <div class="text-wrapper">
+        <div class="nav-flex">
+          <div class="copyright">
+            &copy;Copyright, Neil Moras@2021
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
 </html>

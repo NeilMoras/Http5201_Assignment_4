@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="referrer" content="origin">
-  <meta name="description" content="Security Description Page">
-  <meta name="author" content="Neil Moras">
-  <meta http-equiv="x-ua-compatible" content="IE=edge">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="https://classless.de/classless.css">
-<!--    <link rel="stylesheet" href="../style.scss">-->
-  <title>Security Page</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="origin">
+    <meta name="description" content="Security Description Page">
+    <meta name="author" content="Neil Moras">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://classless.de/classless.css">
+    <!--    <link rel="stylesheet" href="../style.scss">-->
+    <title>Security Page</title>
+  </head>
 
-<body>
-  <header class="header">
-
-  </header>
-  <div class="banner">
-    <img class="banner_image" src="/images/header-image.png" alt="image banner of computer"/>
-</div>
-<div class="back_link">
-  <a href="../index.html">Back to Main</a>
-</div>
-
-  <article>
-    <div class="wrapper">
-      <div id="security_section">
-        <div class="">
-          <h1>Security Page</h1>
-          <p>This page contains all the Security measures process undertaken while creating and building this webpages</p>
-        </div>
-        <div class="http-headers">
-          <h2>HTTP headers</h2>
-          <p>This website after deployment was tested on  <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a> and below is the following result:</p>
-          <img class="example-img" src="/images/score-d-image.png" alt="image of github repo link example" />
-          <img class="example-img" src="/images/score-d-desc-img.png" alt="image of github repo link example" />
-          <p>As you can see, except for the Strict-Transport-security ,rest of he header security is missing making this website vulnerable to breaches.</p>
-          <p> After careful analysis, The security headers were fixed by adding custom security headers to the deployed webpage .The description of each security header and its purpose is mentioned in the screenshot</p>
-          <p>The following was added to the file and updated on th deployed website:</p>
-          <img class="example-img" src="/images/httpheader-code.png" alt="image of github repo link example" />
-          <p>This is what the result looks like after testing the website on <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a>:</p>
-          <img class="example-img" src="/images/score-a-img.png" alt="image of github repo link example" />
-          <img class="example-img" src="/images/score-a-raw-header-img.png" alt="image of github repo link example" />
-          <img class="example-img" src="/images/score-a-desc-img.png" alt="image of github repo link example" />
+  <body>
+    <header class="header">
+    </header>
+    <div class="banner">
+      <img class="banner_image" src="/images/header-image.png" alt="image banner of computer" />
+    </div>
+    <div class="back_link">
+      <a href="../index.html">Back to Main</a>
+    </div>
+    <article>
+      <div class="wrapper">
+        <div id="security_section">
+          <div class="">
+            <h1>Security Page</h1>
+            <p>This page contains all the Security measures process undertaken while creating and building this webpages</p>
+          </div>
+          <div class="http-headers">
+            <h2>HTTP headers</h2>
+            <p>This website after deployment was tested on <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a> and below is the following result:</p>
+            <img class="example-img" src="/images/score-d-image.png" alt="image of github repo link example" />
+            <img class="example-img" src="/images/score-d-desc-img.png" alt="image of github repo link example" />
+            <p>As you can see, except for the Strict-Transport-security ,rest of he header security is missing making this website vulnerable to breaches.</p>
+            <p> After careful analysis, The security headers were fixed by adding custom security headers to the deployed webpage .The description of each security header and its purpose is mentioned in the screenshot</p>
+            <p>The following was added to the file and updated on th deployed website:</p>
+            <img class="example-img" src="/images/httpheader-code.png" alt="image of github repo link example" />
+            <p>This is what the result looks like after testing the website on <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a>:</p>
+            <img class="example-img" src="/images/score-a-img.png" alt="image of github repo link example" />
+            <img class="example-img" src="/images/score-a-raw-header-img.png" alt="image of github repo link example" />
+            <img class="example-img" src="/images/score-a-desc-img.png" alt="image of github repo link example" />
+          </div>
         </div>
       </div>
-    </div>
-  </article>
-
-</body>
+    </article>
+  </body>
 
 </html>
