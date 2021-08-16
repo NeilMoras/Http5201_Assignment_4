@@ -12,12 +12,6 @@ html {
 *:before {
   box-sizing: inherit;
 }
-// body {
-// max-width: 1200px;
-//   margin: 0 auto;
-//   color: #000;
-//   font-family: 'Montserrat', sans-serif;
-// }
 
 .hidden {
   position: absolute;
@@ -30,7 +24,7 @@ h1,
 h2 {
   font-family: 'Montserrat', sans-serif;
 }
-// HEADER Navigation
+// HEADER NAVIGATION
 #header {
   background: #1d1d1d;
   color: #fff;
@@ -81,7 +75,28 @@ h2 {
   color: #2c3e50;
   margin-top: 60px;
 }
-// Footer
+
+// INDEX PAGE
+#index{
+  padding: 5em;
+}
+#index p{
+  margin: 1.5em;
+  font-size: 1.2em;
+}
+#index a{
+  margin: 1.5em;
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 1em;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+
+
+//FOOTER
 #footer {
   clear: both;
   border-top: 1px solid #fff;

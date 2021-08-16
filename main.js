@@ -1,12 +1,12 @@
 import "./style.scss";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <h1>Welcome To My Main Page</h1>
-  <p>Here are the links to the three pages describing the Quality Assurance, Security Featurs and toold used in process of building these web pages as well a Bad example page demonstrating as to what is a NOT TO to example that will expose your webpage to security vulnerability </p>
+  <p>Here are the links to the three pages describing the Quality Assurance, Security Features and tools used in process of building these web pages as well a Bad example page demonstrating as to what is a NOT TO to example that will expose your webpage to security vulnerability </p>
   <a href="security/index.html" target="_blank">Security</a>
   <a href="quality/index.html" target="_blank">Quality</a>
   <a href="badexample/index.html" target="_blank">Bad Example</a>
-`
+`;
 
 
 document.querySelectorAll(".header").innerHTML = `

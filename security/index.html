@@ -30,42 +30,21 @@
       <div id="security_section">
         <div class="">
           <h1>Security Page</h1>
-          <p>This page contains all the Security measures porcess undertaken while creating and building this webpages</p>
+          <p>This page contains all the Security measures process undertaken while creating and building this webpages</p>
         </div>
-        <div class="git-control-and-github">
+        <div class="http-headers">
           <h2>HTTP headers</h2>
-          <p>This website after deployment was tested on  <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a></p>
-          <img class="example-img" src="/images/github_repo_link_img.png" alt="image of github repo link example" />
-          <p>After the project is cloned, it is automatically linked to the repositories main branch by default. Since I am the only person pulling and pushing code from the remote repo, no branch is created and the project is pushed directly to
-            the main branch after update. If the same project is contributed by one or more developer, it is a good practice to create a separate branch and then pushing your code to your new branch. once you push your code to the new branch, there
-            is an option to create a pull request which will pull all the code from the main branch to your branch.You can tag your fellow developer working on the same repo to review your code. If there are any conflicts, it will be reflected and
-            github will display the conflict and allow you to fix the conflict and once fixed,its best for your fellow developer to review it before merging it to the main branch. This method will help your code on your computer to be unaffected by
-            any conflicts as your branch will handle the conflicts remotely and merge it. </p>
-          <p> Even if I am the sole contributor working on the project, it is a good habit to always pull after making a commit as that will create a muscle memory</p>
-          <p>Here are the following steps from cloning the repo and pushing your code to the repository</p>
-          <ol>
-            <li><code>git clone https://github.com/NeilMoras/Http5201_Assignment_4.git </code></li>
-            <li><code>git status (provides information on the current branch and also any uncommited changes) </code></li>
-            <li><code>git Add . (add all files) => git commit -m "first commit" OR git commit -am "first commit" </code></li>
-            <li><code>git pull(fix and conflict after pull)</code></li>
-            <li><code>git push</code></li>
-          </ol>
-        </div>
-        <div class="code-linting">
-          <h2>Code Linting</h2>
-          <p>Eslint was used inorder to linter the js files on this webpage. <a rel="noopener noreferrer" target="_blank" href="https://eslint.org/docs/user-guide/getting-started">Eslint</a> was installed in the node_models as a dev dependency for
-            this webpage using npm on terminal
-            using <code>npm install eslint --save-dev</code></p>
-          <p>Inside package.json file , there will be a rules section where you can add your rules as to what you will want eslint to look for and throw and error if it does not match the code rules deifned. This helped my js file to follow a good
-            coding standards and maitain consistency in in terms of using Double quotes over single and the list can go on and on.</p>
-        </div>
-        <div class="code-standards">
-          <h2>Code Standards</h2>
-          <p>All the webpages follow various coding standards. BEM model has been implemented inorder to refine the naming convention of the ids and classes. classes are using hypens ('-') and id are using CamelCasing inorder to deferentiate</p>
-          <p>SASS will be implemented in the future stages once I am more condifent using it, hence currently using vanilla CSS for styling . CSS, javascript and HTML code is formatted using a beautify package porvided by IDE in order to save tim,
-            yet double checking in terms of whitespaces</p>
-          <p>All codes comments are UPPERCASED inrder to maintain consistency and easy to read an well Highlighted .CSS is well organing,commeneted and placed in sections devided between comments. They are placed on order of the elements in
-            sequence in order for easy readablilty and flow.</p>
+          <p>This website after deployment was tested on  <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a> and below is the following result:</p>
+          <img class="example-img" src="/images/score-d-image.png" alt="image of github repo link example" />
+          <img class="example-img" src="/images/score-d-desc-img.png" alt="image of github repo link example" />
+          <p>As you can see, except for the Strict-Transport-security ,rest of he header security is missing making this website vulnerable to breaches.</p>
+          <p> After careful analysis, The security headers were fixed by adding custom security headers to the deployed webpage .The description of each security header and its purpose is mentioned in the screenshot</p>
+          <p>The following was added to the file and updated on th deployed website:</p>
+          <img class="example-img" src="/images/httpheader-code.png" alt="image of github repo link example" />
+          <p>This is what the result looks like after testing the website on <a rel="noopener noreferrer" target="_blank" href="https://securityheaders.com/">securityheaders.com</a>:</p>
+          <img class="example-img" src="/images/score-a-img.png" alt="image of github repo link example" />
+          <img class="example-img" src="/images/score-a-raw-header-img.png" alt="image of github repo link example" />
+          <img class="example-img" src="/images/score-a-desc-img.png" alt="image of github repo link example" />
         </div>
       </div>
     </div>
